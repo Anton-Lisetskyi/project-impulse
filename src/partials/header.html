@@ -1,0 +1,37 @@
+<header class="header">
+  <div class="container header-container">
+    <a href="./index.html" class="nav-logo" aria-label="Home page">
+      <svg class="nav-logo-icon" width="132" height="24">
+        <use href="/images/sprite.svg#icon-logo"></use>
+      </svg>
+    </a>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a
+            class="nav-link {=$home-active}"
+            href="./index.html"
+            aria-label="Home page"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link {=$favorites-active}"
+            href="./favorites.html"
+            aria-label="Favorites page"
+            >Favorites</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="social-links-wrapper">
+      <load src="partials/components/dark-mode-button.html" />
+      <load
+        src="partials/components/social-links.html"
+        extra-class="social-links-header"
+      />
+    </div>
+    <load src="partials/components/mobile-menu.html" />
+  </div>
+</header>

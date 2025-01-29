@@ -1,0 +1,62 @@
+.exercises-section {
+  padding-bottom: 80px;
+}
+
+.exercises-content .sidebar {
+  margin-top: 64px;
+}
+
+.exercises {
+  flex-grow: 1;
+}
+
+.exercises-empty-message {
+  margin: -20px auto 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.33;
+}
+
+@media screen and (min-width: 768px) {
+  .exercises-section {
+    padding-bottom: 100px;
+  }
+
+  .exercises-content .sidebar {
+    margin-top: 64px;
+  }
+
+  .exercises-content .sidebar-block {
+    width: calc(100% - 288px - 16px);
+  }
+
+  .exercises-empty-message {
+    max-width: 554px;
+    margin-top: 132px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+
+@media only screen and (min-width: 1152px) {
+  .exercises-section {
+    padding-bottom: 132px;
+  }
+
+  .exercises-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .exercises-content .sidebar {
+    flex-flow: column;
+    flex: 0 0 32.3%;
+    margin-top: 0;
+  }
+
+  .exercises-content .sidebar-block {
+    width: 100%;
+  }
+}

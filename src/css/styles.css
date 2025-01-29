@@ -1,0 +1,49 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+
+/* 3rd party libs */
+@import url('izitoast/dist/css/iziToast.min.css');
+
+/* Utils styles */
+@import url('./utils/animations.css');
+
+/* Common styles */
+@import url('./common/reset.css');
+@import url('./common/fonts.css');
+@import url('./common/base.css');
+@import url('./common/container.css');
+
+/* Components styles */
+@import url('./components/icons.css');
+@import url('./components/buttons.css');
+@import url('./components/modal.css');
+@import url('./components/inputs.css');
+@import url('./components/social-links.css');
+@import url('./components/mobile-menu.css');
+@import url('./components/pagination.css');
+@import url('./components/toast.css');
+
+@import url('./components/exercise-details.css');
+@import url('./components/exercises-cards.css');
+@import url('./components/exercises-header.css');
+@import url('./components/exercises-categories.css');
+
+@import url('./components/modal.css');
+@import url('./components/modal-rating.css');
+
+/* Sections style */
+@import url('./sections/header.css');
+@import url('./sections/hero.css');
+@import url('./sections/sidebar.css');
+@import url('./sections/exercises.css');
+@import url('./sections/favorites.css');
+@import url('./sections/footer.css');
+
+/* Darkmode style */
+@import url('./darkmode/darkmode.css');
+@import url('./darkmode/darkmode-ui.css');
+
+
